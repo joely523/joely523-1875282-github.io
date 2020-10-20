@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
+    
 <style>
     body {
     color: blue;
   }
 </style>
+<style>
+    /* Container holding the image and the text */
+  .container {
+  position: relative;
+  text-align: center;
+  color: rgb(226, 19, 19);
+}
+</style>
+<style>
+    .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+</style>
+<style>
+.dotted {
+    border-style: dotted;
+    }
+</style>
 <title>CSS original work</title>
+
 </head>
 
 <body>
+    
     
     <h1>This website is about puppies</h1>
     <p style="font-family:courier;">What kind of puppies do you like?</p>
@@ -21,6 +45,22 @@
         <a href = "https://www.pinterest.com/bestbullysticks/puppies/">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWfNqFyr4Rc5uJRF3ALn6JyvA2_opDIBHUdw&usqp=CAU" title = "cute dog" style = "width:50px;height:50px;margin:5px;">
         </a>
+        <p>Text that is centered on a photo:</p>
+
+<div class="container">
+  <img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/04/931/524/white-pomeranian-dog-istock.jpg?ve=1&tl=1" alt="Snow" style="width:50%; margin: 20px,20px,20px,20px;">
+  
+  <div class="centered">Centered</div>
+</div>
+
+<h3>border</h2>
+<p>This Text with a border that uses dotted lines:</p>
+
+<div class="dotted">A dotted border.</div>
+
+
+</body>
+</html>
 </body>
 
 </html>
