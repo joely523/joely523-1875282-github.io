@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://joely523-1875282.github.io/someCss.html">
+  <style>
+img {
+  float: right;
+}
+</style>
+<style> 
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+<p><img src="https://mymodernmet.com/wp/wp-content/uploads/2019/12/photos-of-indonesia-rarindra-prakarsa-17.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+The 2020 Academy Awards just happened, and we have the full list of winners.
+
+If playing catch-up with this year's winners isn't enough for you, we've compiled a list of every best picture winner since 1927.
+
+There have been 92 best picture winners over the years, and film can be an exciting way to walk through history.</p>
+
+<h2>The border-radius Property</h1>
+
+<p>Rounded corners for an element with a specified background color:</p>
+<p id="rcorners1">Rounded corners!</p>
+</body>
+</html>
